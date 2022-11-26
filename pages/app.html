@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locate Me</title>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dosis&family=Lobster&family=Odibee+Sans&family=Tiro+Bangla:ital@1&family=Yanone+Kaffeesatz:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+
+
+
+  <script langauge='javascript'>
+    var total=0;
+    // var total;
+    function Function(choice)
+      {
+        //   fucntion starts here
+    
+          var loc,ts;
+    
+    if(choice==1)
+    {
+    var x=document.getElementById('to_d').value;
+    
+    if (x=='Bhakkar') {
+        total=0;
+        loc = 1500;
+        total=total+loc;
+        document.getElementById('ctrl').value=loc;
+    }
+    
+    
+    else if (x=='Karachi') {
+        total=0;
+        loc = 2500;
+    total=total+loc;
+        document.getElementById('ctrl').value=loc;
+    }
+    
+    
+    else if (x=='Lahore') {
+        total=0;
+        loc = 1500;
+    total=total+loc;
+        document.getElementById('ctrl').value=loc;
+    }
+    
+    
+    else if (x=='Layyah') {
+        total=0;
+        loc = 1800;
+    total=total+loc;
+        document.getElementById('ctrl').value=loc;
+    }
+    
+    else{
+        window.alert("Wrong location");
+    }
+    
+    // choice for total seats
+    
+    }
+    else if(choice==2)
+    {
+    
+    var a=document.getElementById('seat').value;
+    var control=document.getElementById('ctrl').value;
+    ts=(control*a);
+    total=ts;	
+    
+    }
+    
+    else
+    {
+    window.alert("Wrong choice");
+    }
+    document.getElementById('rent').value=total;
+    }
+    
+    </script>
+
+
+
+
+
+
+
+
+  <body>
+    <header id="Nav">
+      <nav id="Navbar">
+        <li class="Navele"><a class="pages" href="../index.html">Home</a></li>
+        <li class="Navele">
+          <a class="pages" href="./bus.html">Buses</a>
+        </li>
+        <li class="Navele">
+          <a class="pages" href="./Ease.html">Ease</a>
+        </li>
+        <li class="Navele">
+          <a class="pages" href="./location.html">Location</a>
+        </li>
+        <li class="Navele" id="contact">
+          <a class="pages" href="./ContactUs.html">Contact Us</a>
+        </li>
+      </nav>
+      <br id="break" />
+    </header>
+    <span>
+      <form id="form" action="../php/connect.php" method="POST">
+        <label for="iname">Enter Your Name</label>
+
+        <input
+          type="text"
+          name="name"
+          id="id"
+          placeholder="Enter Name"
+          class="inp"
+          required
+        />
+        <label for="iname">Enter CNIC</label>
+
+        <input
+          class="inp"
+          type="text"
+          name="id"
+          id="id"
+          placeholder="Without Dashes"
+          pattern="[0-9]{13}"
+          required
+        />
+
+         
+        <label for="from_d">From </label>
+        <select class="inp" id="from_d" placeholder="" name="from_d" required>            
+            <option value="" selected disabled> -- Select --</option>
+            <option value="Iqbql Hall" id="Iqbalhall">Iqbal Hall</option>
+        </select>
+       
+          
+        <label for="to_d">Towards </label>
+        <select class="inp" id="to_d" name="to_d" onchange="Function(1)" required>
+            <option value="" selected disabled> -- Select --</option>
+            <option value="Bhakkar" id="bhakkar">Bhakkar</option>
+            <option value="Karachi" id="karachi">Karachi</option>
+            <option value="Lahore" id="lahore">Lahore</option>
+            <option value="Layyah" id="layyah">Layyah</option>
+        </select>
+        
+        
+        <input style="display: none;"
+               class="inp" value=""  type="number" name="ctrl" id="ctrl" placeholder="ctrl" readonly/>
+             <label for="seat">Total Seats </label>
+             <input
+               class="inp" value="1" onchange="Function(2)" type="number" name="seat" pattern="[1-9]{2}" id="seat" placeholder="Enter number of seats" required
+             />
+        
+
+
+             <label for="rent">Rent </label>
+             <input
+               class="inp"
+               type="text"
+               value="" name="rent"
+               id="rent"
+               readonly
+             />
+
+             
+        <label for="idate"> Departure Date </label>
+        <input class="inp" type="date" name="date" id="idate" required />
+        <input class="inp" type="submit" value="Submit" id="submit" />
+      </form>
+    </span>
+  </body>
+</html>

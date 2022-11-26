@@ -1,0 +1,93 @@
+header{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+    background-image: url('../images/bbj.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+#contact{
+    position: absolute;
+    right: 40px;
+  }
+Nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.pages {
+  color: white;
+  text-decoration: none;
+}
+.Navele {
+  list-style: none;
+  padding-right: 25px;
+  margin-top: 20px;
+  font-family: "Cairo", sans-serif;
+}
+.Navele:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  font-style: italic;
+  color: antiquewhite;
+}
+.log{
+  margin-top: 350px;
+}
+
+
+#table {
+    border: 2px solid red;
+    display: block;
+    width: 715px;
+    margin: auto;
+    background-color: turquoise;
+}
+
+#para {
+    font-weight: bolder;
+    display: block;
+    font-size: 25px;
+    /* width: 1000px; */
+    width: fit-content;
+    background-color: #c3348c;
+    padding: 13px 40px;
+    margin: auto;
+    font-family: cursive;
+    color: #50ffdf;
+    text-align: center;
+    margin-bottom: -35px;
+    border-radius: 88px;
+}
+
+.dabba > img {
+  width: 350px;
+  height: 350px;
+  display: block;
+  margin: auto;
+  margin-bottom: -27px;
+    margin-top: 20px;
+}
+.dabba > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+  display: block;
+}
+.hdabba{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  text-align: center;
+}

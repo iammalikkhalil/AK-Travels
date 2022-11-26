@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locate Me</title>
+    <link rel="stylesheet" href="../css/app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Dosis&family=Lobster&family=Odibee+Sans&family=Tiro+Bangla:ital@1&family=Yanone+Kaffeesatz:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="Nav">
+      <nav id="Navbar">
+        <li class="Navele"><a class="pages" href="../index.html">Home</a></li>
+        <li class="Navele">
+          <a class="pages" href="./bus.html">Buses</a>
+        </li>
+        <li class="Navele">
+          <a class="pages" href="./Ease.html">Ease</a>
+        </li>
+        <li class="Navele">
+          <a class="pages" href="./location.html">Location</a>
+        </li>
+        <li class="Navele" id="contact">
+          <a class="pages" href="./ContactUs.html">Contact Us</a>
+        </li>
+      </nav>
+      <br id="break" />
+    </header>
+    <span>
+      <label style="color: red; font-size: 3rem; margin:30px;">Print Your Ticket</label>
+      <form id="form" action="../php/search.php" method="POST">
+        <label for="iname">Enter CNIC</label>
+
+        <input class="inp" type="text" name="id" id="id" placeholder="Without Dashes" pattern="[0-9]{13}" required/>
+        
+        
+        <label for="totseats">From </label>
+        <select class="inp" id="cars" name="to_d" required>
+          <option value="" selected disabled>--select--</option>
+          <option value="bhakkar">Bhakkar</option>
+          <option value="karachi">Karachi</option>
+          <option value="lahore">Lahore</option>
+          <option value="layyah">Layyah</option>
+        </select>
+        
+        <input class="inp" type="submit" value="Submit" id="submit" name="submit1" />
+      </form>
+    </span>
+  </body>
+</html>

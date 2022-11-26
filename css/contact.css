@@ -1,0 +1,279 @@
+header{
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: "Times New Roman", Times, serif;
+}
+.heading {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 40px;
+  font-family: 'Lobster', cursive;
+  color: #00ffadbd;
+}
+#contact{
+    position: absolute;
+    right: 40px;
+  }
+Nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.pages {
+  color: white;
+  text-decoration: none;
+}
+.Navele {
+  list-style: none;
+  padding-right: 25px;
+  margin-top: 20px;
+  font-family: "Cairo", sans-serif;
+}
+.Navele:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: bold;
+  font-style: italic;
+  color: antiquewhite;
+}
+
+
+
+
+/* btn */
+
+
+.stretch-card>.card {
+  width: 100%;
+  min-width: 100%
+}
+
+body {
+  background-color: #000000
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+  .padding {
+      padding: 1.5rem
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+      padding: 1rem
+  }
+}
+
+.padding {
+  padding: 10rem;
+  display: block;
+  width: fit-content;
+  margin: auto;
+}
+
+.card {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  /* background-color: #000000; */
+  background-clip: border-box;
+  /* border: 1px solid #3da5f; */
+  /* border-radius: 0px */
+}
+
+.card .card-body {
+  padding: 1.25rem 1.75rem
+}
+
+
+.card .card-title {
+  color: #ffffff;
+  margin-bottom: 0.625rem;
+  text-transform: capitalize;
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: cursive;
+}
+
+.card .card-description {
+  margin-bottom: 1.2rem;
+  font-size: 25px;
+  color: #76838f;
+  font-family: cursive;
+  text-align: center;
+}
+
+.btn.btn-social-icon{
+ width: 50px;
+ height: 50px;
+ padding: 0;
+}
+.template-demo > .btn{
+ margin-right: 0.5rem !important;
+}
+
+
+.template-demo {
+    margin-top: 0.5rem !important;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+.btn.btn-rounded {
+ border-radius: 50px;
+}
+
+
+.btn-outline-facebook {
+ border: 1px solid #3b579d;
+ color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+ background: #3b579d;
+ color: #ffffff;
+}
+
+.btn-outline-youtube {
+ border: 1px solid #e52d27;
+ color: #e52d27;
+}
+
+.btn-outline-twitter {
+ border: 1px solid #2caae1;
+ color: #2caae1;
+}
+
+.btn-outline-dribbble {
+ border: 1px solid #ea4c89;
+ color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+ border: 1px solid #0177b5;
+ color: #0177b5;
+}
+
+.btn-outline-instagram {
+ border: 1px solid #dc4a38;
+ color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+ background: #2caae1;
+ color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+ background: #0177b5;
+ color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+ background: #e52d27;
+ color: #ffffff;
+}
+
+.btn-outline-instagram:hover{
+ background: #e52d27;
+ color: #ffffff;
+}
+
+
+/*Button cover*/
+
+.btn-facebook {
+ background: #3b579d;
+ color: #ffffff;
+}
+
+.btn-youtube {
+ background: #e52d27;
+ color: #ffffff;
+}
+
+.btn-twitter {
+ background: #2caae1;
+ color: #ffffff;
+}
+.btn-dribbble {
+ background: #ea4c89;
+ color: #ffffff;
+}
+.btn-linkedin {
+ background: #0177b5;
+ color: #ffffff;
+}
+.btn-instagram {
+ background: #dc4a38;
+ color: #ffffff;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+ background: #2d4278;
+ color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-youtube:hover, .btn-youtube:focus {
+ background: #c21d17;
+ color: #ffffff;
+ cursor: pointer;
+}
+.btn-twitter:hover, .btn-twitter:focus {
+ background: #1b8dbf;
+ color: #ffffff;
+ cursor: pointer;
+}
+.btn-dribbble:hover, .btn-dribbble:focus {
+ background: #e51e6b;
+ color: #ffffff;
+ cursor: pointer;
+}
+
+.btn-linkedin:hover, .btn-linkedin:focus {
+ background: #015682;
+ color: #ffffff;
+ cursor: pointer;
+}
+
+.btn-instagram:hover, .btn-instagram:focus {
+ background: #bf3322;
+ color: #ffffff;
+ cursor: pointer;
+}
+
+
+
+
+#bg{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.4;
+}

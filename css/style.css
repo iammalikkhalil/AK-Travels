@@ -1,0 +1,52 @@
+
+.heading {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 40px;
+  font-family: 'Lobster', cursive;
+  color: #00ffadbd;
+}
+#para {
+  font-family: "Smooch", cursive;
+  margin: 0px 20px;
+  font-size: 20px;
+}
+#steps{
+    display: block;
+    margin-left: 160px;
+    margin-top: 60px;
+}
+.stno{
+    margin: 5px;
+    font-size: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    list-style: none;
+}
+#asadname{
+    
+    font-family: 'Dosis', sans-serif;
+    color: aqua;
+    font-size: 30px;
+}
+
+#click{
+  text-decoration: none;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  /* color: rgba(221, 224, 24, 0.705); */
+  font-size: 32px;
+  color: #c7d991;
+  font-weight: bold;
+
+}
+#click:hover{
+  font-family: 'Tiro Bangla', serif;
+  color: rgb(192, 204, 28);
+  font-size: 30px;
+}
+
+
+.png{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
