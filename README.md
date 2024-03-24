@@ -1,4 +1,3 @@
-```markdown
 # AK Travels
 
 ![AK Travels Logo](link/to/logo.png)
