@@ -68,4 +68,3 @@ We welcome contributions from the community! To contribute to AK Travels, please
 ## Contact
 
 For any inquiries or support, feel free to reach out to us at [mk0180770@gmail.com](mailto:mk0180770@gmail.com).
-```
